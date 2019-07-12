@@ -10,5 +10,8 @@ elif age > 18 and age < 25:
     print('Отдельная категория пользоватлеей')
 else:
     print('доступ разрешён')
+#     проверим на юбилей
+    if age % 5 == 0:
+        print('OK ubiley')
 
 print('end')
